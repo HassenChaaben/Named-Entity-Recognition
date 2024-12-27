@@ -10,4 +10,8 @@ This project focuses on Named Entity Recognition (NER), a subtask of information
 ## Installation
 To install the necessary dependencies, run:
 ```bash
-pip install -r requirements.txt
+pip install spacy
+pip install scispacy
+pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_ner_bc5cdr_md-0.5.4.tar.gz
+pip install transformers datasets torch scikit-learn
+
